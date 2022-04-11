@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.MainPage">
+
+    <StackLayout>
+        <Label Text="Numero"/>
+        <Entry Placeholder="Digite o numero" Keyboard="Numeric" x:Name="txtNumero"/>
+        <Label Text="Numero" />
+        <Entry Placeholder="Digite o numero" Keyboard="Numeric" x:Name="txtoutroNumero"/>
+        <Button Text="Somar" x:Name="btnCalcular" Clicked="btnCalcular_Clicked"/>
+        <Button Text="Subtrair" x:Name="btnCalcularSub" Clicked="btnCalcularSub_Clicked" />
+        <Button Text="Dividir" x:Name="btnCalcularDiv" Clicked="btnCalcularDiv_Clicked"  />
+        <Button Text="Multiplicar" x:Name="btnCalcularMulti" Clicked="btnCalcularMulti_Clicked" />
+    </StackLayout>
+
+</ContentPage>
